@@ -27,8 +27,8 @@ function downloadBlobUrl(url, mimetype) {
 		fileExtension = 'prn';
 	} else if (currentUrl.startsWith('http://fbd.portalonewifi.com/eebrowser.html')) {
 		console.log('Matched URL pattern: Portal One WiFi');
-		fileName = 'sarrah';
-		fileExtension = 'abc';
+		fileName = 'SF';
+		fileExtension = 'txt';
 	} else {
 		fileName = 'downloadfile';
 		fileExtension = window.surefox.getDefaultExtension();
@@ -71,4 +71,5 @@ function downloadBlobUrl(url, mimetype) {
 	console.log('XHR request sent');
 
 }
+
 

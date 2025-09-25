@@ -11,10 +11,10 @@
     for (var i = 0; i < inputs.length; i++) {
         var x = inputs[i].type.toLowerCase();
         if (x === 'button') {
-            inputs[i].style.width = "50%";
+            inputs[i].style.width = "40%";
         } else {
             if (x === 'text') {
-                inputs[i].style.width = "45%";
+                inputs[i].style.width = "35%";
             }
 
             // if (x === 'image') {

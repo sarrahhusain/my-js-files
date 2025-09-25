@@ -1,0 +1,88 @@
+(function () {"\n" +
+        "\n" +
+        "\n" +
+        "   var divs = document.getElementsByTagName(\"div\"), i = divs.length;\n" +
+        "   while (i--) {\n" +
+        "\n" +
+        "      divs[i].className = \"\";\n" +
+        "      //do something\n" +
+        "   }\n" +
+        "\n" +
+        "   var inputs = document.getElementsByTagName('input');\n" +
+        "\n" +
+        "   for (var i = 0; i < inputs.length; i++) {\n" +
+        "      var x = inputs[i].type.toLowerCase();\n" +
+        "      if (x == 'button') {\n" +
+        "\n" +
+        "         inputs[i].style.width = \"50%\";\n" +
+        "\n" +
+        "      }\n" +
+        "      else {\n" +
+        "         if (x == 'text') {\n" +
+        "\n" +
+        "            inputs[i].style.width = \"45%\";\n" +
+        "\n" +
+        "         }\n" +
+        "\n" +
+        "         // if (x == 'image') {\n" +
+        "         //    var productImage = document.createElement(\"div\");\n" +
+        "\n" +
+        "         //    inputs[i].style.width = \"48%\";\n" +
+        "         //    inputs[i].style.height = \"48%\";\n" +
+        "         //    inputs[i].style.top = 20;\n" +
+        "\n" +
+        "         //    inputs[i].style.backgroundColor = \"red\";\n" +
+        "\n" +
+        "         //    console.log(\"In Image-----\")\n" +
+        "\n" +
+        "         // }\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "      }\n" +
+        "   }\n" +
+        "\n" +
+        "   // const imagenew = document.getElementById('iim');\n" +
+        "   // imagenew.style.position = 'fixed';\n" +
+        "   // imagenew.style.top = 100;\n" +
+        "   // imagenew.style.right = 40;\n" +
+        "   // imagenew.style.width = 90;\n" +
+        "   // imagenew.style.height = 90;\n" +
+        "   // imagenew.style.top = 20;\n" +
+        "   // imagenew.style.backgroundColor = \"red\";\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "   const imagenew = document.querySelectorAll('.productImage');\n" +
+        "   // imagenew.forEach((image) => {\n" +
+        "   //    image.style.position = 'fixed';\n" +
+        "   //    image.style.top = 100;\n" +
+        "   //    image.style.left = 250;\n" +
+        "   //    image.style.width = 90;\n" +
+        "   //    image.style.height = 90;\n" +
+        "   //    // image.style.backgroundColor = \"red\";\n" +
+        "\n" +
+        "   // });\n" +
+        "   // imagenew.forEach((image) => {\n" +
+        "   imagenew[0].style.position = 'fixed';\n" +
+        "   imagenew[0].style.top = 110;\n" +
+        "   imagenew[0].style.left = 260;\n" +
+        "   imagenew[0].style.width = 90;\n" +
+        "   imagenew[0].style.height = 90;\n" +
+        "   // image.style.backgroundColor = \"red\";\n" +
+        "\n" +
+        "   // });\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "}\n" +
+        "\n" +
+        ")(); 

@@ -1,0 +1,59 @@
+(function () {
+
+    var divs = document.getElementsByTagName("div"), i = divs.length;
+    while (i--) {
+        divs[i].className = "";
+        // do something
+    }
+
+    var inputs = document.getElementsByTagName('input');
+
+    for (var i = 0; i < inputs.length; i++) {
+        var x = inputs[i].type.toLowerCase();
+        if (x === 'button') {
+            inputs[i].style.width = "40%";
+        } else {
+            if (x === 'text') {
+                inputs[i].style.width = "35%";
+            }
+
+            // if (x === 'image') {
+            //     var productImage = document.createElement("div");
+            //     inputs[i].style.width = "48%";
+            //     inputs[i].style.height = "48%";
+            //     inputs[i].style.top = 20;
+            //     inputs[i].style.backgroundColor = "red";
+            //     console.log("In Image-----");
+            // }
+        }
+    }
+
+    // const imagenew = document.getElementById('iim');
+    // imagenew.style.position = 'fixed';
+    // imagenew.style.top = 100;
+    // imagenew.style.right = 40;
+    // imagenew.style.width = 90;
+    // imagenew.style.height = 90;
+    // imagenew.style.top = 20;
+    // imagenew.style.backgroundColor = "red";
+
+    const imagenew = document.querySelectorAll('.productImage');
+    // imagenew.forEach((image) => {
+    //     image.style.position = 'fixed';
+    //     image.style.top = 100;
+    //     image.style.left = 250;
+    //     image.style.width = 90;
+    //     image.style.height = 90;
+    //     // image.style.backgroundColor = "red";
+    // });
+
+     // imagenew.forEach((image) => {
+        imagenew[0].style.position = 'fixed';
+        imagenew[0].style.top = "110px";
+        imagenew[0].style.left = "260px";
+        imagenew[0].style.width = "90px";
+        imagenew[0].style.height = "90px";
+        // imagenew[0].style.backgroundColor = "red";
+   // });
+
+})();
